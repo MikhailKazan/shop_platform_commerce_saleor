@@ -1,5 +1,5 @@
 {
-  "name": "@vercel/commerce-saleor",
+  "name": "@enversio/commerce-saleor",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -49,7 +49,7 @@
     }
   },
   "dependencies": {
-    "@vercel/commerce": "^0.0.1",
+    "@enversio/commerce": "https://github.com/MikhailKazan/shop_platform_commerce",
     "@vercel/fetch": "^6.1.1",
     "lodash.debounce": "^4.0.8"
   },
