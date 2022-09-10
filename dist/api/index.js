@@ -1,4 +1,4 @@
-import { getCommerceApi as commerceApi } from "@vercel/commerce/api";
+import { getCommerceApi as commerceApi } from "@enversio/commerce/api";
 import * as operations from "./operations";
 import * as Const from "../const";
 if (!Const.API_URL) {
