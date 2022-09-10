@@ -1,4 +1,4 @@
-import useSearch from "@vercel/commerce/product/use-search";
+import useSearch from "@enversio/commerce/product/use-search";
 import { getSearchVariables, normalizeProduct } from "../utils";
 import * as query from "../utils/queries";
 export default useSearch;

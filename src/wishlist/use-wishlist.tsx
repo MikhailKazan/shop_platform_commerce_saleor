@@ -1,7 +1,7 @@
 // TODO: replace this hook and other wishlist hooks with a handler, or remove them if
 // Saleor doesn't have a wishlist
 
-import { HookFetcher } from '@vercel/commerce/utils/types'
+import { HookFetcher } from '@enversio/commerce/utils/types'
 import { Product } from '../../schema'
 
 const defaultOpts = {}

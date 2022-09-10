@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
-import type { MutationHookContext, HookFetcherContext, MutationHook } from '@vercel/commerce/utils/types'
-import useRemoveItem, { UseRemoveItem } from '@vercel/commerce/cart/use-remove-item'
+import type { MutationHookContext, HookFetcherContext, MutationHook } from '@enversio/commerce/utils/types'
+import useRemoveItem, { UseRemoveItem } from '@enversio/commerce/cart/use-remove-item'
 import useCart from './use-cart'
 import * as mutation from '../utils/mutations'
 import { getCheckoutId, checkoutToCart } from '../utils'

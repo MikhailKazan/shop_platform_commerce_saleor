@@ -1,4 +1,4 @@
-import type { GraphQLFetcher } from '@vercel/commerce/api'
+import type { GraphQLFetcher } from '@enversio/commerce/api'
 import fetch from './fetch'
 
 import { API_URL } from '../../const'

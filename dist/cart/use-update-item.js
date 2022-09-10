@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import debounce from "lodash.debounce";
-import { ValidationError } from "@vercel/commerce/utils/errors";
-import useUpdateItem from "@vercel/commerce/cart/use-update-item";
+import { ValidationError } from "@enversio/commerce/utils/errors";
+import useUpdateItem from "@enversio/commerce/cart/use-update-item";
 import useCart from "./use-cart";
 import { handler as removeItemHandler } from "./use-remove-item";
 import { checkoutToCart } from "../utils";

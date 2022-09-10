@@ -1,4 +1,4 @@
-import { FetcherError } from '@vercel/commerce/utils/errors'
+import { FetcherError } from '@enversio/commerce/utils/errors'
 
 export function getError(errors: any[], status: number) {
   errors = errors ?? [{ message: 'Failed to fetch Saleor API' }]

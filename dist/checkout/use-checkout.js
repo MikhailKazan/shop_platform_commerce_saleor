@@ -1,4 +1,4 @@
-import useCheckout from "@vercel/commerce/checkout/use-checkout";
+import useCheckout from "@enversio/commerce/checkout/use-checkout";
 export default useCheckout;
 export const handler = {
     fetchOptions: {

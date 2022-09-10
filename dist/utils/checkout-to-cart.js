@@ -1,4 +1,4 @@
-import { CommerceError } from "@vercel/commerce/utils/errors";
+import { CommerceError } from "@enversio/commerce/utils/errors";
 import { normalizeCart } from "./normalize";
 import throwUserErrors from "./throw-user-errors";
 const checkoutToCart = (checkoutPayload)=>{

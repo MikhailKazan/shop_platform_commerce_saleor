@@ -1,6 +1,6 @@
 import { useCallback } from "react";
-import { CommerceError } from "@vercel/commerce/utils/errors";
-import useAddItem from "@vercel/commerce/cart/use-add-item";
+import { CommerceError } from "@enversio/commerce/utils/errors";
+import useAddItem from "@enversio/commerce/cart/use-add-item";
 import useCart from "./use-cart";
 import * as mutation from "../utils/mutations";
 import { getCheckoutId, checkoutToCart } from "../utils";

@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
-import type { MutationHook } from '@vercel/commerce/utils/types'
-import { CommerceError } from '@vercel/commerce/utils/errors'
-import useAddItem, { UseAddItem } from '@vercel/commerce/cart/use-add-item'
+import type { MutationHook } from '@enversio/commerce/utils/types'
+import { CommerceError } from '@enversio/commerce/utils/errors'
+import useAddItem, { UseAddItem } from '@enversio/commerce/cart/use-add-item'
 import useCart from './use-cart'
 
 import * as mutation from '../utils/mutations'
@@ -9,7 +9,7 @@ import * as mutation from '../utils/mutations'
 import { getCheckoutId, checkoutToCart } from '../utils'
 
 import { Mutation, MutationCheckoutLinesAddArgs } from '../../schema'
-import { AddItemHook } from '@vercel/commerce/types/cart'
+import { AddItemHook } from '@enversio/commerce/types/cart'
 
 export default useAddItem as UseAddItem<typeof handler>
 

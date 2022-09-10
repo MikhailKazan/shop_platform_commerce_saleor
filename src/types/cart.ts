@@ -1,6 +1,6 @@
-import * as Core from '@vercel/commerce/types/cart'
+import * as Core from '@enversio/commerce/types/cart'
 
-export * from '@vercel/commerce/types/cart'
+export * from '@enversio/commerce/types/cart'
 
 export type SaleorCart = {}
 

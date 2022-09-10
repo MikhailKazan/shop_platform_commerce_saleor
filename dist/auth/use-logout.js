@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import useLogout from "@vercel/commerce/auth/use-logout";
+import useLogout from "@enversio/commerce/auth/use-logout";
 import useCustomer from "../customer/use-customer";
 import * as mutation from "../utils/mutations";
 import { setCSRFToken, setToken, setCheckoutToken } from "../utils/customer-token";

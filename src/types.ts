@@ -1,4 +1,4 @@
-import type { Cart as CoreCart } from '@vercel/commerce/types'
+import type { Cart as CoreCart } from '@enversio/commerce/types'
 import { CheckoutLine } from '../schema'
 
 export type SaleorCheckout = {

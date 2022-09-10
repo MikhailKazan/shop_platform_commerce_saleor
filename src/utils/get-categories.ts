@@ -1,4 +1,4 @@
-import { Category } from '@vercel/commerce/types/site'
+import { Category } from '@enversio/commerce/types/site'
 import { SaleorConfig } from '../api'
 import { CollectionCountableEdge } from '../../schema'
 import * as query from './queries'

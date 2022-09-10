@@ -1,4 +1,4 @@
-import { Product } from '@vercel/commerce/types/product'
+import { Product } from '@enversio/commerce/types/product'
 
 import { Product as SaleorProduct, Checkout, CheckoutLine, Money, ProductVariant } from '../../schema'
 

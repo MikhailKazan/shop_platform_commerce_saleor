@@ -1,12 +1,12 @@
-import { SWRHook } from '@vercel/commerce/utils/types'
-import { Product } from '@vercel/commerce/types/product'
-import useSearch, { UseSearch } from '@vercel/commerce/product/use-search'
+import { SWRHook } from '@enversio/commerce/utils/types'
+import { Product } from '@enversio/commerce/types/product'
+import useSearch, { UseSearch } from '@enversio/commerce/product/use-search'
 
 import { ProductCountableEdge } from '../../schema'
 import { getSearchVariables, normalizeProduct } from '../utils'
 
 import * as query from '../utils/queries'
-import { SearchProductsHook } from '@vercel/commerce/types/product'
+import { SearchProductsHook } from '@enversio/commerce/types/product'
 
 export default useSearch as UseSearch<typeof handler>
 

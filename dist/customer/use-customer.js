@@ -1,4 +1,4 @@
-import useCustomer from "@vercel/commerce/customer/use-customer";
+import useCustomer from "@enversio/commerce/customer/use-customer";
 import * as query from "../utils/queries";
 export default useCustomer;
 export const handler = {

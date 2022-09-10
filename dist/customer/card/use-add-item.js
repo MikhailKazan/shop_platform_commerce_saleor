@@ -1,4 +1,4 @@
-import useAddItem from "@vercel/commerce/customer/card/use-add-item";
+import useAddItem from "@enversio/commerce/customer/card/use-add-item";
 export default useAddItem;
 export const handler = {
     fetchOptions: {

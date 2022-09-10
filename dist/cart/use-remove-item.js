@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import useRemoveItem from "@vercel/commerce/cart/use-remove-item";
+import useRemoveItem from "@enversio/commerce/cart/use-remove-item";
 import useCart from "./use-cart";
 import * as mutation from "../utils/mutations";
 import { getCheckoutId, checkoutToCart } from "../utils";

@@ -1,8 +1,8 @@
 import { useCallback } from 'react'
 import debounce from 'lodash.debounce'
-import type { HookFetcherContext, MutationHookContext } from '@vercel/commerce/utils/types'
-import { ValidationError } from '@vercel/commerce/utils/errors'
-import useUpdateItem, { UseUpdateItem } from '@vercel/commerce/cart/use-update-item'
+import type { HookFetcherContext, MutationHookContext } from '@enversio/commerce/utils/types'
+import { ValidationError } from '@enversio/commerce/utils/errors'
+import useUpdateItem, { UseUpdateItem } from '@enversio/commerce/cart/use-update-item'
 
 import useCart from './use-cart'
 import { handler as removeItemHandler } from './use-remove-item'

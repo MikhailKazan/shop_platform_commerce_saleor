@@ -1,6 +1,6 @@
 import { useCallback } from "react";
-import { CommerceError } from "@vercel/commerce/utils/errors";
-import useSignup from "@vercel/commerce/auth/use-signup";
+import { CommerceError } from "@enversio/commerce/utils/errors";
+import useSignup from "@enversio/commerce/auth/use-signup";
 import useCustomer from "../customer/use-customer";
 import * as mutation from "../utils/mutations";
 import { handleAutomaticLogin, throwUserErrors } from "../utils";

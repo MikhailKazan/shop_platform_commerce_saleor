@@ -1,4 +1,4 @@
-import type { OperationContext } from '@vercel/commerce/api/operations'
+import type { OperationContext } from '@enversio/commerce/api/operations'
 import { ProductCountableEdge } from '../../../schema'
 import type { Provider, SaleorConfig } from '..'
 

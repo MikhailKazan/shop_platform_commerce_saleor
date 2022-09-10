@@ -1,4 +1,4 @@
-import { ValidationError } from '@vercel/commerce/utils/errors'
+import { ValidationError } from '@enversio/commerce/utils/errors'
 
 import { CheckoutError, CheckoutErrorCode, AppError, AccountError, AccountErrorCode } from '../../schema'
 

@@ -1,13 +1,13 @@
 import { useCallback } from 'react'
-import type { MutationHook } from '@vercel/commerce/utils/types'
-import { CommerceError } from '@vercel/commerce/utils/errors'
-import useSignup, { UseSignup } from '@vercel/commerce/auth/use-signup'
+import type { MutationHook } from '@enversio/commerce/utils/types'
+import { CommerceError } from '@enversio/commerce/utils/errors'
+import useSignup, { UseSignup } from '@enversio/commerce/auth/use-signup'
 import useCustomer from '../customer/use-customer'
 import { AccountRegisterInput, Mutation, MutationAccountRegisterArgs } from '../../schema'
 
 import * as mutation from '../utils/mutations'
 import { handleAutomaticLogin, throwUserErrors } from '../utils'
-import { SignupHook } from '@vercel/commerce/types/signup'
+import { SignupHook } from '@enversio/commerce/types/signup'
 
 export default useSignup as UseSignup<typeof handler>
 

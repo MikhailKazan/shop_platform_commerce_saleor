@@ -1,5 +1,5 @@
 import { Cart } from '../types'
-import { CommerceError } from '@vercel/commerce/utils/errors'
+import { CommerceError } from '@enversio/commerce/utils/errors'
 
 import {
   CheckoutLinesAdd,

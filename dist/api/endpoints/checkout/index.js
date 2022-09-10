@@ -1,5 +1,5 @@
-import { createEndpoint } from "@vercel/commerce/api";
-import checkoutEndpoint from "@vercel/commerce/api/endpoints/checkout";
+import { createEndpoint } from "@enversio/commerce/api";
+import checkoutEndpoint from "@enversio/commerce/api/endpoints/checkout";
 const getCheckout = async ({ req , res , config  })=>{
     try {
         const html = `
