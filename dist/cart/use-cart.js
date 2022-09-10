@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import useCommerceCart from "@/commerce/cart/use-cart";
+import useCommerceCart from "@enversio/commerce/cart/use-cart";
 import { checkoutCreate, checkoutToCart, getCheckoutId } from "../utils";
 import * as query from "../utils/queries";
 export default useCommerceCart;
