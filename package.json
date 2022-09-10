@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "@enversio/commerce": "https://github.com/MikhailKazan/shop_platform_commerce",
+    "@swc/core": "^1.3.0",
     "@vercel/fetch": "^6.1.1",
     "lodash.debounce": "^4.0.8"
   },
@@ -75,7 +76,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "taskr": "^1.1.0",
-    "taskr-swc": "^0.0.1",
     "typescript": "^4.5.4"
   },
   "lint-staged": {
